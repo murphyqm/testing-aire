@@ -1,0 +1,15 @@
+name: testing-pytesimint
+
+dependencies:
+# These dependencies are very useful for packaging and testing your code
+  - python=3.12
+  - pytest
+  - blackd
+  - numpy
+  - matplotlib
+  - pandas
+  - scipy
+  - numba
+  - pip
+  - pip:
+    - https://github.com/murphyqm/pytesimint/archive/refs/tags/v0.1.1.tar.gz
